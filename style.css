@@ -56,3 +56,42 @@ a {
 .nav-link {
   margin: 0 16px;
 }
+
+/* HOME [SECTION] */
+
+#logo{
+  height: 10vw;
+  min-height: 140px;
+}
+
+#textlogo > p{
+  color: var(--primary-color);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#apresenlogo{
+  margin-top: 150px;
+  margin-left: 15vw;
+}
+
+#textlogo{
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+#textlogo{
+  margin-top: 10px;
+}
+
+/* SOBRE [SECTION] */
+
+#Sobre{
+  background-color: var(--primary-color);
+  height: 200px;
+}
+
+#Sobre > p{
+  color: white;
+  font-size: 45px;
+  margin-left: 20vw;
+  margin-top: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
