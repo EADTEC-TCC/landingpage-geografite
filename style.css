@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --primary-color: #9370DB;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ELEMENTOS HTML */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* COMPONENTS */
+
+.btn {
+  border-radius: 50px;
+  color: #FFF;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 16px 32px;
+}
+
+.navbar > .navbar-left-items {
+  margin-right: auto;
+}
+
+.navbar > .navbar-left-items > .navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 0 16px;
+}
