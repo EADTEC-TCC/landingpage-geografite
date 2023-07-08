@@ -37,6 +37,9 @@ a {
 
 /* NAVBAR */
 
+.nav-item :hover{
+  color: #9370DB;
+}
 .navbar {
   display: flex;
   max-width: 1140px;
@@ -60,14 +63,19 @@ a {
 /* HOME [SECTION] */
 
 #logo{
-  height: 10vw;
+  height: 8vw;
   min-height: 140px;
+  max-height: 200px;
 }
 
-#textlogo > p{
+#ullogo > li{
   color: var(--primary-color);
+  list-style: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+
 #apresenlogo{
   margin-top: 150px;
   margin-left: 15vw;
@@ -85,13 +93,36 @@ a {
 
 #Sobre{
   background-color: var(--primary-color);
-  height: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 90px;
+  margin-top: 6vw;
+  color: white;
 }
 
-#Sobre > p{
-  color: white;
-  font-size: 45px;
-  margin-left: 20vw;
-  margin-top: 80px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#Sobre p {
+  font-size: 1vw;
+  text-align: justify;
+  line-height: 1.5;
+  margin-left: 600px;
+  margin-top: 5px;
+  line-height: 28px;
+}
+
+#Sobre h1{
+  font-size: 20px;
+}
+
+
+#map {
+  /* width: 100%; */
+  height: 500px;
+}
+
+/*section rodapé*/
+#rodape{
+  background-color: #9370DB;
+  height: 200px;
 }
