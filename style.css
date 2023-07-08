@@ -94,6 +94,7 @@ a {
 #Sobre{
   background-color: var(--primary-color);
   height: auto;
+  display: table;
   padding-top: 10px;
   padding-left: 200px;
   padding-right: 200px;
@@ -103,18 +104,22 @@ a {
 }
 
 #Sobre p {
-  font-size: 1vw;
+  font-size: 20px;
   text-align: justify;
   line-height: 1.5;
-  margin-left: 600px;
+  float: right;
   margin-top: 5px;
   line-height: 28px;
 }
 
 #Sobre h1{
-  font-size: 20px;
+  font-size: 35px;
 }
 
+.Container{
+  height: auto;
+  width: ;
+}
 
 #map {
   /* width: 100%; */
