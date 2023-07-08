@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  
   <link rel="icon" href="/public/logo.svg">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <title>GEOGRAFITE</title>
 </head>
 <body>
@@ -31,23 +35,33 @@
     <div id="apresenlogo">
       <img id ="logo" src="/public/logo.svg">
       <div id="textlogo">
-        <p>mapeando artes pelo mundo</p>
-        <p>democratizando o acesso</p>
-        <p>aflorando a criatividade</p>
+        <ul id="ullogo">
+        <li> Mapeando artes pelo mundo! </li>
+        <li> Democratizando o acesso! </li>
+        <li> Aflorando a criatividade! </li>
+        </ul>
       </div>
     </div>
-      <div>
-        
-      </div>
-    </div>
-  </section>
-  <section id="#sobre">
-    <div id="Sobre">
-      <p>SOBRE</p>
-    </div>
+        <section id="#sobre">
+          <div id="Sobre">
+              <div class="Container">
+                  <h1 class="text">SOBRE</h1>
+              </div>
+              <div class="Container">
+                  <p class ="text"> Aplicativo desenvolvido para mapear grafites espalhados por todo o Brasil. A ideia por trás desse projeto é facilitar o acesso de todas as pessoas às artes urbanas, permitindo que qualquer um possa descobrir e apreciar essas formas artísticas em seu próprio tempo e ritmo. O aplicativo funciona como um guia virtual, permitindo que os usuários naveguem por um mapa interativo para encontrar os locais onde esses grafites estão localizados. Além disso, o aplicativo também oferece informações sobre os artistas com links externos para suas redes sociais para facilitar sua divulgação. Com essa app, é possível promover a arte e a cultura para um público mais amplo e diverso, democratizando o acesso às artes urbanas.</p>
+              </div>
+          </div>
+        </section>
+
   </section>
   <section>
-    
+    <!---mapa-->
+    <div id="map">
+    </div>
+    <script src="map.js"></script>
+  </section>
+  <section>
+    <div id="rodape"></div>
   </section>
 </body>
 </html>
